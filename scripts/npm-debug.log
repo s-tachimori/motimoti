@@ -1,0 +1,578 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'time',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'time', null ]
+7 verbose cache add name=undefined spec="time" args=["time",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'time',
+8 verbose parsed url   path: 'time',
+8 verbose parsed url   href: 'time' }
+9 silly lockFile 714eea0f-time time
+10 verbose lock time C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\714eea0f-time.lock
+11 silly lockFile 714eea0f-time time
+12 silly lockFile 714eea0f-time time
+13 verbose addNamed [ 'time', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 627c61e5-time time@
+16 verbose lock time@ C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\627c61e5-time.lock
+17 silly addNameRange { name: 'time', range: '*', hasData: false }
+18 verbose url raw time
+19 verbose url resolving [ 'https://registry.npmjs.org/', './time' ]
+20 verbose url resolved https://registry.npmjs.org/time
+21 info trying registry request attempt 1 at 20:09:54
+22 http GET https://registry.npmjs.org/time
+23 http 200 https://registry.npmjs.org/time
+24 silly registry.get cb [ 200,
+24 silly registry.get   { date: 'Tue, 23 Sep 2014 11:09:54 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     etag: '"8F8CBLLUX993PIRJFUK46FZ4H"',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=60',
+24 silly registry.get     'content-length': '37831',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '4262',
+24 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1411470594.370332,VS0,VE181',
+24 silly registry.get     vary: 'Accept',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 silly addNameRange number 2 { name: 'time', range: '*', hasData: true }
+26 silly addNameRange versions [ 'time',
+26 silly addNameRange   [ '0.0.1',
+26 silly addNameRange     '0.0.2',
+26 silly addNameRange     '0.0.3',
+26 silly addNameRange     '0.1.0',
+26 silly addNameRange     '0.1.1',
+26 silly addNameRange     '0.1.2',
+26 silly addNameRange     '0.1.3',
+26 silly addNameRange     '0.1.4',
+26 silly addNameRange     '0.2.0',
+26 silly addNameRange     '0.2.1',
+26 silly addNameRange     '0.2.2',
+26 silly addNameRange     '0.2.3',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.3.1',
+26 silly addNameRange     '0.3.2',
+26 silly addNameRange     '0.4.0',
+26 silly addNameRange     '0.5.0',
+26 silly addNameRange     '0.6.0',
+26 silly addNameRange     '0.6.2',
+26 silly addNameRange     '0.6.3',
+26 silly addNameRange     '0.6.4',
+26 silly addNameRange     '0.6.5',
+26 silly addNameRange     '0.7.0',
+26 silly addNameRange     '0.8.0',
+26 silly addNameRange     '0.8.1',
+26 silly addNameRange     '0.8.2',
+26 silly addNameRange     '0.8.3',
+26 silly addNameRange     '0.8.4',
+26 silly addNameRange     '0.9.0',
+26 silly addNameRange     '0.9.1',
+26 silly addNameRange     '0.9.2',
+26 silly addNameRange     '0.10.0',
+26 silly addNameRange     '0.11.0' ] ]
+27 verbose addNamed [ 'time', '0.11.0' ]
+28 verbose addNamed [ '0.11.0', '0.11.0' ]
+29 silly lockFile 9d60f2ef-time-0-11-0 time@0.11.0
+30 verbose lock time@0.11.0 C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\9d60f2ef-time-0-11-0.lock
+31 silly lockFile a54959d3-y-npmjs-org-time-time-0-11-0-tgz https://registry.npmjs.org/time/-/time-0.11.0.tgz
+32 verbose lock https://registry.npmjs.org/time/-/time-0.11.0.tgz C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\a54959d3-y-npmjs-org-time-time-0-11-0-tgz.lock
+33 verbose addRemoteTarball [ 'https://registry.npmjs.org/time/-/time-0.11.0.tgz',
+33 verbose addRemoteTarball   '955d4ce3d690e506a82b2c2a523a806a64e1d9ec' ]
+34 info retry fetch attempt 1 at 20:09:55
+35 verbose fetch to= C:\Users\C283~1.SH-\AppData\Local\Temp\npm-3068-6XytNR2m\registry.npmjs.org\time\-\time-0.11.0.tgz
+36 http GET https://registry.npmjs.org/time/-/time-0.11.0.tgz
+37 http 200 https://registry.npmjs.org/time/-/time-0.11.0.tgz
+38 silly lockFile a54959d3-y-npmjs-org-time-time-0-11-0-tgz https://registry.npmjs.org/time/-/time-0.11.0.tgz
+39 silly lockFile a54959d3-y-npmjs-org-time-time-0-11-0-tgz https://registry.npmjs.org/time/-/time-0.11.0.tgz
+40 silly lockFile 9d60f2ef-time-0-11-0 time@0.11.0
+41 silly lockFile 9d60f2ef-time-0-11-0 time@0.11.0
+42 silly lockFile 627c61e5-time time@
+43 silly lockFile 627c61e5-time time@
+44 silly resolved [ { name: 'time',
+44 silly resolved     description: '"time.h" bindings for Node.js',
+44 silly resolved     keywords:
+44 silly resolved      [ 'date',
+44 silly resolved        'time',
+44 silly resolved        'time.h',
+44 silly resolved        'timezone',
+44 silly resolved        'setTimezone',
+44 silly resolved        'getTimezone' ],
+44 silly resolved     version: '0.11.0',
+44 silly resolved     repository:
+44 silly resolved      { type: 'git',
+44 silly resolved        url: 'git://github.com/TooTallNate/node-time.git' },
+44 silly resolved     author:
+44 silly resolved      { name: 'Nathan Rajlich',
+44 silly resolved        email: 'nathan@tootallnate.net',
+44 silly resolved        url: 'http://tootallnate.net' },
+44 silly resolved     license: 'MIT',
+44 silly resolved     contributors: [ [Object] ],
+44 silly resolved     main: './index.js',
+44 silly resolved     scripts: { test: 'mocha --reporter spec', install: 'node-gyp rebuild' },
+44 silly resolved     dependencies: { bindings: '1.2.0', debug: '0.8.1', nan: '1.1.2' },
+44 silly resolved     devDependencies: { mocha: '*' },
+44 silly resolved     gypfile: true,
+44 silly resolved     bugs: { url: 'https://github.com/TooTallNate/node-time/issues' },
+44 silly resolved     homepage: 'https://github.com/TooTallNate/node-time',
+44 silly resolved     _id: 'time@0.11.0',
+44 silly resolved     _shasum: '955d4ce3d690e506a82b2c2a523a806a64e1d9ec',
+44 silly resolved     _from: 'time@',
+44 silly resolved     _npmVersion: '1.4.9',
+44 silly resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+44 silly resolved     maintainers: [ [Object], [Object] ],
+44 silly resolved     dist:
+44 silly resolved      { shasum: '955d4ce3d690e506a82b2c2a523a806a64e1d9ec',
+44 silly resolved        tarball: 'http://registry.npmjs.org/time/-/time-0.11.0.tgz' },
+44 silly resolved     directories: {},
+44 silly resolved     _resolved: 'https://registry.npmjs.org/time/-/time-0.11.0.tgz' } ]
+45 info install time@0.11.0 into D:\heroku\hubot\foobot
+46 info installOne time@0.11.0
+47 info D:\heroku\hubot\foobot\node_modules\time unbuild
+48 verbose tar unpack C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\time\0.11.0\package.tgz
+49 silly lockFile 208d19e6-u-hubot-foobot-node-modules-time tar://D:\heroku\hubot\foobot\node_modules\time
+50 verbose lock tar://D:\heroku\hubot\foobot\node_modules\time C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\208d19e6-u-hubot-foobot-node-modules-time.lock
+51 silly lockFile a1ae05bd-pm-cache-time-0-11-0-package-tgz tar://C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\time\0.11.0\package.tgz
+52 verbose lock tar://C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\time\0.11.0\package.tgz C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\a1ae05bd-pm-cache-time-0-11-0-package-tgz.lock
+53 silly gunzTarPerm modes [ '755', '644' ]
+54 silly gunzTarPerm extractEntry package.json
+55 silly gunzTarPerm extractEntry .npmignore
+56 silly gunzTarPerm extractEntry README.md
+57 silly gunzTarPerm extractEntry LICENSE
+58 silly gunzTarPerm extractEntry index.js
+59 silly gunzTarPerm extractEntry .travis.yml
+60 silly gunzTarPerm extractEntry .jshintrc
+61 silly gunzTarPerm extractEntry History.md
+62 silly gunzTarPerm extractEntry src/time.cc
+63 silly gunzTarPerm extractEntry test/date.js
+64 silly gunzTarPerm extractEntry test/exports.js
+65 silly gunzTarPerm extractEntry test/tzset.js
+66 silly gunzTarPerm extractEntry binding.gyp
+67 silly lockFile 208d19e6-u-hubot-foobot-node-modules-time tar://D:\heroku\hubot\foobot\node_modules\time
+68 silly lockFile 208d19e6-u-hubot-foobot-node-modules-time tar://D:\heroku\hubot\foobot\node_modules\time
+69 silly lockFile a1ae05bd-pm-cache-time-0-11-0-package-tgz tar://C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\time\0.11.0\package.tgz
+70 silly lockFile a1ae05bd-pm-cache-time-0-11-0-package-tgz tar://C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\time\0.11.0\package.tgz
+71 info preinstall time@0.11.0
+72 verbose readDependencies using package.json deps
+73 verbose readDependencies using package.json deps
+74 verbose cache add [ 'bindings@1.2.0', null ]
+75 verbose cache add name=undefined spec="bindings@1.2.0" args=["bindings@1.2.0",null]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: 'bindings@1.2.0',
+76 verbose parsed url   path: 'bindings@1.2.0',
+76 verbose parsed url   href: 'bindings@1.2.0' }
+77 verbose cache add [ 'debug@0.8.1', null ]
+78 verbose cache add name=undefined spec="debug@0.8.1" args=["debug@0.8.1",null]
+79 verbose parsed url { protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: 'debug@0.8.1',
+79 verbose parsed url   path: 'debug@0.8.1',
+79 verbose parsed url   href: 'debug@0.8.1' }
+80 verbose cache add [ 'nan@1.1.2', null ]
+81 verbose cache add name=undefined spec="nan@1.1.2" args=["nan@1.1.2",null]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: 'nan@1.1.2',
+82 verbose parsed url   path: 'nan@1.1.2',
+82 verbose parsed url   href: 'nan@1.1.2' }
+83 verbose cache add name="bindings" spec="1.2.0" args=["bindings","1.2.0"]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: '1.2.0',
+84 verbose parsed url   path: '1.2.0',
+84 verbose parsed url   href: '1.2.0' }
+85 verbose addNamed [ 'bindings', '1.2.0' ]
+86 verbose addNamed [ '1.2.0', '1.2.0' ]
+87 silly lockFile edb95d60-bindings-1-2-0 bindings@1.2.0
+88 verbose lock bindings@1.2.0 C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\edb95d60-bindings-1-2-0.lock
+89 verbose cache add name="debug" spec="0.8.1" args=["debug","0.8.1"]
+90 verbose parsed url { protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: null,
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: '0.8.1',
+90 verbose parsed url   path: '0.8.1',
+90 verbose parsed url   href: '0.8.1' }
+91 verbose addNamed [ 'debug', '0.8.1' ]
+92 verbose addNamed [ '0.8.1', '0.8.1' ]
+93 silly lockFile a38530e1-debug-0-8-1 debug@0.8.1
+94 verbose lock debug@0.8.1 C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\a38530e1-debug-0-8-1.lock
+95 verbose cache add name="nan" spec="1.1.2" args=["nan","1.1.2"]
+96 verbose parsed url { protocol: null,
+96 verbose parsed url   slashes: null,
+96 verbose parsed url   auth: null,
+96 verbose parsed url   host: null,
+96 verbose parsed url   port: null,
+96 verbose parsed url   hostname: null,
+96 verbose parsed url   hash: null,
+96 verbose parsed url   search: null,
+96 verbose parsed url   query: null,
+96 verbose parsed url   pathname: '1.1.2',
+96 verbose parsed url   path: '1.1.2',
+96 verbose parsed url   href: '1.1.2' }
+97 verbose addNamed [ 'nan', '1.1.2' ]
+98 verbose addNamed [ '1.1.2', '1.1.2' ]
+99 silly lockFile 60c82d82-nan-1-1-2 nan@1.1.2
+100 verbose lock nan@1.1.2 C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\60c82d82-nan-1-1-2.lock
+101 verbose url raw bindings
+102 verbose url resolving [ 'https://registry.npmjs.org/', './bindings' ]
+103 verbose url resolved https://registry.npmjs.org/bindings
+104 info trying registry request attempt 1 at 20:09:56
+105 http GET https://registry.npmjs.org/bindings
+106 verbose url raw nan
+107 verbose url resolving [ 'https://registry.npmjs.org/', './nan' ]
+108 verbose url resolved https://registry.npmjs.org/nan
+109 info trying registry request attempt 1 at 20:09:56
+110 http GET https://registry.npmjs.org/nan
+111 verbose url raw debug
+112 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+113 verbose url resolved https://registry.npmjs.org/debug
+114 info trying registry request attempt 1 at 20:09:56
+115 verbose etag "X0H4NVRP00Z4L2PSZKJ137OA"
+116 http GET https://registry.npmjs.org/debug
+117 http 200 https://registry.npmjs.org/bindings
+118 silly registry.get cb [ 200,
+118 silly registry.get   { date: 'Tue, 23 Sep 2014 11:09:55 GMT',
+118 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+118 silly registry.get     etag: '"2XK5GTIJB2Z30UKPHG4QQX557"',
+118 silly registry.get     'content-type': 'application/json',
+118 silly registry.get     'cache-control': 'max-age=60',
+118 silly registry.get     'content-length': '18313',
+118 silly registry.get     'accept-ranges': 'bytes',
+118 silly registry.get     via: '1.1 varnish',
+118 silly registry.get     age: '730',
+118 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+118 silly registry.get     'x-cache': 'HIT',
+118 silly registry.get     'x-cache-hits': '9',
+118 silly registry.get     'x-timer': 'S1411470595.793930,VS0,VE0',
+118 silly registry.get     vary: 'Accept',
+118 silly registry.get     'keep-alive': 'timeout=10, max=50',
+118 silly registry.get     connection: 'Keep-Alive' } ]
+119 http 200 https://registry.npmjs.org/nan
+120 silly registry.get cb [ 200,
+120 silly registry.get   { date: 'Tue, 23 Sep 2014 11:09:55 GMT',
+120 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+120 silly registry.get     etag: '"2708DUO6NXF17XBKNCFQPD9W0"',
+120 silly registry.get     'content-type': 'application/json',
+120 silly registry.get     'cache-control': 'max-age=60',
+120 silly registry.get     'content-length': '73592',
+120 silly registry.get     'accept-ranges': 'bytes',
+120 silly registry.get     via: '1.1 varnish',
+120 silly registry.get     age: '143',
+120 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+120 silly registry.get     'x-cache': 'HIT',
+120 silly registry.get     'x-cache-hits': '5',
+120 silly registry.get     'x-timer': 'S1411470595.794649,VS0,VE0',
+120 silly registry.get     vary: 'Accept',
+120 silly registry.get     'keep-alive': 'timeout=10, max=50',
+120 silly registry.get     connection: 'Keep-Alive' } ]
+121 http 304 https://registry.npmjs.org/debug
+122 silly registry.get cb [ 304,
+122 silly registry.get   { date: 'Tue, 23 Sep 2014 11:09:55 GMT',
+122 silly registry.get     server: 'Apache',
+122 silly registry.get     via: '1.1 varnish',
+122 silly registry.get     'last-modified': 'Tue, 23 Sep 2014 11:08:59 GMT',
+122 silly registry.get     'cache-control': 'max-age=60',
+122 silly registry.get     etag: '"X0H4NVRP00Z4L2PSZKJ137OA"',
+122 silly registry.get     'x-served-by': 'cache-ty68-TYO',
+122 silly registry.get     'x-cache': 'HIT',
+122 silly registry.get     'x-cache-hits': '5',
+122 silly registry.get     'x-timer': 'S1411470595.817781,VS0,VE0',
+122 silly registry.get     vary: 'Accept',
+122 silly registry.get     'content-length': '0',
+122 silly registry.get     'keep-alive': 'timeout=10, max=50',
+122 silly registry.get     connection: 'Keep-Alive' } ]
+123 verbose etag debug from cache
+124 silly lockFile 180d0508--npmjs-org-debug-debug-0-8-1-tgz https://registry.npmjs.org/debug/-/debug-0.8.1.tgz
+125 verbose lock https://registry.npmjs.org/debug/-/debug-0.8.1.tgz C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\180d0508--npmjs-org-debug-debug-0-8-1-tgz.lock
+126 verbose addRemoteTarball [ 'https://registry.npmjs.org/debug/-/debug-0.8.1.tgz',
+126 verbose addRemoteTarball   '20ff4d26f5e422cb68a1bacbbb61039ad8c1c130' ]
+127 info retry fetch attempt 1 at 20:09:56
+128 verbose fetch to= C:\Users\C283~1.SH-\AppData\Local\Temp\npm-3068-6XytNR2m\registry.npmjs.org\debug\-\debug-0.8.1.tgz
+129 http GET https://registry.npmjs.org/debug/-/debug-0.8.1.tgz
+130 silly lockFile 3daadc45--org-bindings-bindings-1-2-0-tgz https://registry.npmjs.org/bindings/-/bindings-1.2.0.tgz
+131 verbose lock https://registry.npmjs.org/bindings/-/bindings-1.2.0.tgz C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\3daadc45--org-bindings-bindings-1-2-0-tgz.lock
+132 silly lockFile 4620c502-stry-npmjs-org-nan-nan-1-1-2-tgz https://registry.npmjs.org/nan/-/nan-1.1.2.tgz
+133 verbose lock https://registry.npmjs.org/nan/-/nan-1.1.2.tgz C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\4620c502-stry-npmjs-org-nan-nan-1-1-2-tgz.lock
+134 verbose addRemoteTarball [ 'https://registry.npmjs.org/bindings/-/bindings-1.2.0.tgz',
+134 verbose addRemoteTarball   'c224fc5b349a84043779f97a6271d9d70da7636f' ]
+135 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-1.1.2.tgz',
+135 verbose addRemoteTarball   'bbd48552fc0758673ebe8fada360b60278a6636b' ]
+136 info retry fetch attempt 1 at 20:09:56
+137 verbose fetch to= C:\Users\C283~1.SH-\AppData\Local\Temp\npm-3068-6XytNR2m\registry.npmjs.org\bindings\-\bindings-1.2.0.tgz
+138 http GET https://registry.npmjs.org/bindings/-/bindings-1.2.0.tgz
+139 info retry fetch attempt 1 at 20:09:56
+140 verbose fetch to= C:\Users\C283~1.SH-\AppData\Local\Temp\npm-3068-6XytNR2m\registry.npmjs.org\nan\-\nan-1.1.2.tgz
+141 http GET https://registry.npmjs.org/nan/-/nan-1.1.2.tgz
+142 http 200 https://registry.npmjs.org/debug/-/debug-0.8.1.tgz
+143 silly lockFile 180d0508--npmjs-org-debug-debug-0-8-1-tgz https://registry.npmjs.org/debug/-/debug-0.8.1.tgz
+144 silly lockFile 180d0508--npmjs-org-debug-debug-0-8-1-tgz https://registry.npmjs.org/debug/-/debug-0.8.1.tgz
+145 silly lockFile a38530e1-debug-0-8-1 debug@0.8.1
+146 silly lockFile a38530e1-debug-0-8-1 debug@0.8.1
+147 http 200 https://registry.npmjs.org/nan/-/nan-1.1.2.tgz
+148 silly lockFile 4620c502-stry-npmjs-org-nan-nan-1-1-2-tgz https://registry.npmjs.org/nan/-/nan-1.1.2.tgz
+149 silly lockFile 4620c502-stry-npmjs-org-nan-nan-1-1-2-tgz https://registry.npmjs.org/nan/-/nan-1.1.2.tgz
+150 silly lockFile 60c82d82-nan-1-1-2 nan@1.1.2
+151 silly lockFile 60c82d82-nan-1-1-2 nan@1.1.2
+152 http 200 https://registry.npmjs.org/bindings/-/bindings-1.2.0.tgz
+153 silly lockFile 3daadc45--org-bindings-bindings-1-2-0-tgz https://registry.npmjs.org/bindings/-/bindings-1.2.0.tgz
+154 silly lockFile 3daadc45--org-bindings-bindings-1-2-0-tgz https://registry.npmjs.org/bindings/-/bindings-1.2.0.tgz
+155 silly lockFile edb95d60-bindings-1-2-0 bindings@1.2.0
+156 silly lockFile edb95d60-bindings-1-2-0 bindings@1.2.0
+157 silly resolved [ { name: 'debug',
+157 silly resolved     version: '0.8.1',
+157 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+157 silly resolved     description: 'small debugging utility',
+157 silly resolved     keywords: [ 'debug', 'log', 'debugger' ],
+157 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+157 silly resolved     dependencies: {},
+157 silly resolved     devDependencies: { mocha: '*' },
+157 silly resolved     main: 'lib/debug.js',
+157 silly resolved     browser: './debug.js',
+157 silly resolved     engines: { node: '*' },
+157 silly resolved     files: [ 'lib/debug.js', 'debug.js' ],
+157 silly resolved     component: { scripts: [Object] },
+157 silly resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+157 silly resolved     homepage: 'https://github.com/visionmedia/debug',
+157 silly resolved     _id: 'debug@0.8.1',
+157 silly resolved     dist:
+157 silly resolved      { shasum: '20ff4d26f5e422cb68a1bacbbb61039ad8c1c130',
+157 silly resolved        tarball: 'http://registry.npmjs.org/debug/-/debug-0.8.1.tgz' },
+157 silly resolved     _from: 'debug@0.8.1',
+157 silly resolved     _npmVersion: '1.3.21',
+157 silly resolved     _npmUser: { name: 'tjholowaychuk', email: 'tj@vision-media.ca' },
+157 silly resolved     maintainers: [ [Object] ],
+157 silly resolved     directories: {},
+157 silly resolved     _shasum: '20ff4d26f5e422cb68a1bacbbb61039ad8c1c130',
+157 silly resolved     _resolved: 'https://registry.npmjs.org/debug/-/debug-0.8.1.tgz' },
+157 silly resolved   { name: 'nan',
+157 silly resolved     version: '1.1.2',
+157 silly resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+157 silly resolved     main: 'include_dirs.js',
+157 silly resolved     repository: { type: 'git', url: 'git://github.com/rvagg/nan.git' },
+157 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+157 silly resolved     license: 'MIT',
+157 silly resolved     bugs: { url: 'https://github.com/rvagg/nan/issues' },
+157 silly resolved     homepage: 'https://github.com/rvagg/nan',
+157 silly resolved     _id: 'nan@1.1.2',
+157 silly resolved     dist:
+157 silly resolved      { shasum: 'bbd48552fc0758673ebe8fada360b60278a6636b',
+157 silly resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-1.1.2.tgz' },
+157 silly resolved     _from: 'nan@1.1.2',
+157 silly resolved     _npmVersion: '1.4.3',
+157 silly resolved     _npmUser: { name: 'rvagg', email: 'rod@vagg.org' },
+157 silly resolved     maintainers: [ [Object] ],
+157 silly resolved     directories: {},
+157 silly resolved     _shasum: 'bbd48552fc0758673ebe8fada360b60278a6636b',
+157 silly resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-1.1.2.tgz' },
+157 silly resolved   { name: 'bindings',
+157 silly resolved     description: 'Helper module for loading your native module\'s .node file',
+157 silly resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+157 silly resolved     version: '1.2.0',
+157 silly resolved     author:
+157 silly resolved      { name: 'Nathan Rajlich',
+157 silly resolved        email: 'nathan@tootallnate.net',
+157 silly resolved        url: 'http://tootallnate.net' },
+157 silly resolved     repository:
+157 silly resolved      { type: 'git',
+157 silly resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+157 silly resolved     main: './bindings.js',
+157 silly resolved     bugs: { url: 'https://github.com/TooTallNate/node-bindings/issues' },
+157 silly resolved     homepage: 'https://github.com/TooTallNate/node-bindings',
+157 silly resolved     _id: 'bindings@1.2.0',
+157 silly resolved     dist:
+157 silly resolved      { shasum: 'c224fc5b349a84043779f97a6271d9d70da7636f',
+157 silly resolved        tarball: 'http://registry.npmjs.org/bindings/-/bindings-1.2.0.tgz' },
+157 silly resolved     _from: 'bindings@1.2.0',
+157 silly resolved     _npmVersion: '1.4.3',
+157 silly resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+157 silly resolved     maintainers: [ [Object], [Object] ],
+157 silly resolved     directories: {},
+157 silly resolved     _shasum: 'c224fc5b349a84043779f97a6271d9d70da7636f',
+157 silly resolved     _resolved: 'https://registry.npmjs.org/bindings/-/bindings-1.2.0.tgz' } ]
+158 info install debug@0.8.1 into D:\heroku\hubot\foobot\node_modules\time
+159 info install nan@1.1.2 into D:\heroku\hubot\foobot\node_modules\time
+160 info install bindings@1.2.0 into D:\heroku\hubot\foobot\node_modules\time
+161 info installOne debug@0.8.1
+162 info installOne nan@1.1.2
+163 info installOne bindings@1.2.0
+164 info D:\heroku\hubot\foobot\node_modules\time\node_modules\debug unbuild
+165 info D:\heroku\hubot\foobot\node_modules\time\node_modules\nan unbuild
+166 info D:\heroku\hubot\foobot\node_modules\time\node_modules\bindings unbuild
+167 verbose tar unpack C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\debug\0.8.1\package.tgz
+168 silly lockFile f76d0480--modules-time-node-modules-debug tar://D:\heroku\hubot\foobot\node_modules\time\node_modules\debug
+169 verbose lock tar://D:\heroku\hubot\foobot\node_modules\time\node_modules\debug C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\f76d0480--modules-time-node-modules-debug.lock
+170 silly lockFile ed56abd1-pm-cache-debug-0-8-1-package-tgz tar://C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\debug\0.8.1\package.tgz
+171 verbose lock tar://C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\debug\0.8.1\package.tgz C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\ed56abd1-pm-cache-debug-0-8-1-package-tgz.lock
+172 verbose tar unpack C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\nan\1.1.2\package.tgz
+173 silly lockFile ae94bc67-de-modules-time-node-modules-nan tar://D:\heroku\hubot\foobot\node_modules\time\node_modules\nan
+174 verbose lock tar://D:\heroku\hubot\foobot\node_modules\time\node_modules\nan C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\ae94bc67-de-modules-time-node-modules-nan.lock
+175 silly lockFile b10fe5f5--npm-cache-nan-1-1-2-package-tgz tar://C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\nan\1.1.2\package.tgz
+176 verbose lock tar://C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\nan\1.1.2\package.tgz C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\b10fe5f5--npm-cache-nan-1-1-2-package-tgz.lock
+177 verbose tar unpack C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\bindings\1.2.0\package.tgz
+178 silly lockFile 7a910dcf-dules-time-node-modules-bindings tar://D:\heroku\hubot\foobot\node_modules\time\node_modules\bindings
+179 verbose lock tar://D:\heroku\hubot\foobot\node_modules\time\node_modules\bindings C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\7a910dcf-dules-time-node-modules-bindings.lock
+180 silly lockFile deaf29a6-cache-bindings-1-2-0-package-tgz tar://C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\bindings\1.2.0\package.tgz
+181 verbose lock tar://C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\bindings\1.2.0\package.tgz C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\deaf29a6-cache-bindings-1-2-0-package-tgz.lock
+182 silly gunzTarPerm modes [ '755', '644' ]
+183 silly gunzTarPerm modes [ '755', '644' ]
+184 silly gunzTarPerm modes [ '755', '644' ]
+185 silly gunzTarPerm extractEntry package.json
+186 silly gunzTarPerm extractEntry debug.js
+187 silly gunzTarPerm extractEntry Readme.md
+188 silly gunzTarPerm extractEntry package.json
+189 silly gunzTarPerm extractEntry package.json
+190 silly gunzTarPerm extractEntry README.md
+191 silly gunzTarPerm extractEntry bindings.js
+192 silly gunzTarPerm extractEntry README.md
+193 silly gunzTarPerm extractEntry LICENSE
+194 silly gunzTarPerm extractEntry include_dirs.js
+195 silly gunzTarPerm extractEntry .dntrc
+196 silly gunzTarPerm extractEntry build/config.gypi
+197 silly gunzTarPerm extractEntry nan.h
+198 silly gunzTarPerm extractEntry lib/debug.js
+199 silly lockFile 7a910dcf-dules-time-node-modules-bindings tar://D:\heroku\hubot\foobot\node_modules\time\node_modules\bindings
+200 silly lockFile 7a910dcf-dules-time-node-modules-bindings tar://D:\heroku\hubot\foobot\node_modules\time\node_modules\bindings
+201 silly lockFile deaf29a6-cache-bindings-1-2-0-package-tgz tar://C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\bindings\1.2.0\package.tgz
+202 silly lockFile deaf29a6-cache-bindings-1-2-0-package-tgz tar://C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\bindings\1.2.0\package.tgz
+203 info preinstall bindings@1.2.0
+204 verbose readDependencies using package.json deps
+205 verbose readDependencies using package.json deps
+206 silly resolved []
+207 verbose about to build D:\heroku\hubot\foobot\node_modules\time\node_modules\bindings
+208 info build D:\heroku\hubot\foobot\node_modules\time\node_modules\bindings
+209 verbose linkStuff [ false,
+209 verbose linkStuff   false,
+209 verbose linkStuff   false,
+209 verbose linkStuff   'D:\\heroku\\hubot\\foobot\\node_modules\\time\\node_modules' ]
+210 info linkStuff bindings@1.2.0
+211 verbose linkBins bindings@1.2.0
+212 verbose linkMans bindings@1.2.0
+213 verbose rebuildBundles bindings@1.2.0
+214 info install bindings@1.2.0
+215 info postinstall bindings@1.2.0
+216 silly lockFile f76d0480--modules-time-node-modules-debug tar://D:\heroku\hubot\foobot\node_modules\time\node_modules\debug
+217 silly lockFile f76d0480--modules-time-node-modules-debug tar://D:\heroku\hubot\foobot\node_modules\time\node_modules\debug
+218 silly lockFile ae94bc67-de-modules-time-node-modules-nan tar://D:\heroku\hubot\foobot\node_modules\time\node_modules\nan
+219 silly lockFile ae94bc67-de-modules-time-node-modules-nan tar://D:\heroku\hubot\foobot\node_modules\time\node_modules\nan
+220 silly lockFile ed56abd1-pm-cache-debug-0-8-1-package-tgz tar://C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\debug\0.8.1\package.tgz
+221 silly lockFile ed56abd1-pm-cache-debug-0-8-1-package-tgz tar://C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\debug\0.8.1\package.tgz
+222 silly lockFile b10fe5f5--npm-cache-nan-1-1-2-package-tgz tar://C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\nan\1.1.2\package.tgz
+223 silly lockFile b10fe5f5--npm-cache-nan-1-1-2-package-tgz tar://C:\Users\c283.sh-tachimori\AppData\Roaming\npm-cache\nan\1.1.2\package.tgz
+224 info preinstall debug@0.8.1
+225 info preinstall nan@1.1.2
+226 verbose readDependencies using package.json deps
+227 verbose readDependencies using package.json deps
+228 verbose readDependencies using package.json deps
+229 silly resolved []
+230 verbose about to build D:\heroku\hubot\foobot\node_modules\time\node_modules\debug
+231 info build D:\heroku\hubot\foobot\node_modules\time\node_modules\debug
+232 verbose linkStuff [ false,
+232 verbose linkStuff   false,
+232 verbose linkStuff   false,
+232 verbose linkStuff   'D:\\heroku\\hubot\\foobot\\node_modules\\time\\node_modules' ]
+233 info linkStuff debug@0.8.1
+234 verbose readDependencies using package.json deps
+235 silly resolved []
+236 verbose about to build D:\heroku\hubot\foobot\node_modules\time\node_modules\nan
+237 info build D:\heroku\hubot\foobot\node_modules\time\node_modules\nan
+238 verbose linkStuff [ false,
+238 verbose linkStuff   false,
+238 verbose linkStuff   false,
+238 verbose linkStuff   'D:\\heroku\\hubot\\foobot\\node_modules\\time\\node_modules' ]
+239 info linkStuff nan@1.1.2
+240 verbose linkBins debug@0.8.1
+241 verbose linkMans debug@0.8.1
+242 verbose rebuildBundles debug@0.8.1
+243 verbose linkBins nan@1.1.2
+244 verbose linkMans nan@1.1.2
+245 verbose rebuildBundles nan@1.1.2
+246 info install debug@0.8.1
+247 info install nan@1.1.2
+248 info postinstall debug@0.8.1
+249 info postinstall nan@1.1.2
+250 verbose about to build D:\heroku\hubot\foobot\node_modules\time
+251 info build D:\heroku\hubot\foobot\node_modules\time
+252 verbose linkStuff [ false, false, false, 'D:\\heroku\\hubot\\foobot\\node_modules' ]
+253 info linkStuff time@0.11.0
+254 verbose linkBins time@0.11.0
+255 verbose linkMans time@0.11.0
+256 verbose rebuildBundles time@0.11.0
+257 verbose rebuildBundles [ 'bindings', 'debug', 'nan' ]
+258 info install time@0.11.0
+259 verbose unsafe-perm in lifecycle true
+260 info time@0.11.0 Failed to exec install script
+261 info D:\heroku\hubot\foobot\node_modules\time unbuild
+262 info preuninstall time@0.11.0
+263 info uninstall time@0.11.0
+264 verbose true,D:\heroku\hubot\foobot\node_modules,D:\heroku\hubot\foobot\node_modules unbuild time@0.11.0
+265 info postuninstall time@0.11.0
+266 error time@0.11.0 install: `node-gyp rebuild`
+266 error Exit status 1
+267 error Failed at the time@0.11.0 install script.
+267 error This is most likely a problem with the time package,
+267 error not with npm itself.
+267 error Tell the author that this fails on your system:
+267 error     node-gyp rebuild
+267 error You can get their info via:
+267 error     npm owner ls time
+267 error There is likely additional logging output above.
+268 error System Windows_NT 6.2.9200
+269 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "time" "--save"
+270 error cwd D:\heroku\hubot\foobot\scripts
+271 error node -v v0.10.29
+272 error npm -v 1.4.14
+273 error code ELIFECYCLE
+274 verbose exit [ 1, true ]
