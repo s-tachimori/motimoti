@@ -9,18 +9,10 @@
 
 module.exports = (robot) ->
   robot.hear /OHNISHI$/i, (msg) ->
-    msg.send "PONG"
+    msg.send"PONG"
 
-  robot.respond /ADAPTER$/i, (msg) ->
-    msg.send robot.adapterName
+  robot.hear /‘å¼$/i, (msg) -> 
+    msg.send"PONG"
 
-  robot.respond /ECHO (.*)$/i, (msg) ->
-    msg.send msg.match[1]
-
-  robot.respond /TIME$/i, (msg) ->
-    msg.send "Server time is: #{new Date()}"
-
-  robot.respond /DIE$/i, (msg) ->
-    msg.send "Goodbye, cruel world."
-    process.exit 0
-
+  robot.hear /ƒfƒO$/i, (msg) -> 
+    msg.send"„¯(^o^)„®‚—‚—‚—‚—‚—„¬(^o^)„­ÃÞ¸ÞÃÞ¸ÞÃÞ¸ÞÃÞ¸Þ‚—‚—‚—‚—‚—"
