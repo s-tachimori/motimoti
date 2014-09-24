@@ -9,10 +9,10 @@
 
 module.exports = (robot) ->
   robot.hear /OHNISHI$/i, (msg) ->
-    msg.send"PONG"
+    msg.send "PONG"
 
   robot.hear /‘å¼$/i, (msg) -> 
-    msg.send"PONG"
+    msg.send "PONG"
 
   robot.hear /ƒfƒO$/i, (msg) -> 
-    msg.send"„¯(^o^)„®‚—‚—‚—‚—‚—„¬(^o^)„­ÃÞ¸ÞÃÞ¸ÞÃÞ¸ÞÃÞ¸Þ‚—‚—‚—‚—‚—"
+    msg.send "„¯(^o^)„®‚—‚—‚—‚—‚—„¬(^o^)„­ÃÞ¸ÞÃÞ¸ÞÃÞ¸ÞÃÞ¸Þ‚—‚—‚—‚—‚—"
