@@ -11,8 +11,6 @@ module.exports = (robot) ->
   robot.hear /OHNISHI$/i, (msg) ->
     msg.send "PONG"
 
-  robot.hear /�吼$/i, (msg) -> 
-    msg.send "PONG"
-
-  robot.hear /�f�O$/i, (msg) -> 
-    msg.send "��(^o^)��������������(^o^)���޸��޸��޸��޸ނ���������"
+  robot.hear /デグ/, (msg) -> 
+    msg.send "┗(^o^)┛ｗｗｗｗｗ┏(^o^)┓ﾃﾞｸﾞﾃﾞｸﾞﾃﾞｸﾞﾃﾞｸﾞｗｗｗｗｗ"
+ 
