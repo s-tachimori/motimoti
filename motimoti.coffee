@@ -27,3 +27,8 @@ module.exports = (robot) ->
       "▂▅▇█▓▒░(’ω’)░▒▓█▇▅▂うわああああああ"
 
     msg.send str
+
+  robot.hear /javadoc7\s+(.*)$/i
+    url = "http://www.google.co.jp/search?q=#{msg.match[1]}&" +
+      "sitesearch=http%3A%2F%2Fdocs.oracle.com%2Fjavase%2Fjp%2F6%2Fapi%2F"
+    msg.send url
