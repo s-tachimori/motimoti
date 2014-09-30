@@ -20,10 +20,10 @@ module.exports = (robot) ->
 #    msg.send "＿人人人人人人＿ ＞　" + m + "　＜ ￣Y^Y^Y^Y^Y￣"
 
   robot.respond /liquidate ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/, (msg) ->
-    str = "( ^o^)#{msg.match[1]}" +
-      "( ˘⊖˘) 。o(#{msg.match[2]})" +
-      "|#{msg.match[3]}|┗(☋｀ )┓三" +
-      "( ◠‿◠ )☛#{msg.match[4]}" +
+    str = "( ^o^)#{msg.match[1]}\n" +
+      "( ˘⊖˘) 。o(#{msg.match[2]})\n" +
+      "|#{msg.match[3]}|┗(☋｀ )┓三\n" +
+      "( ◠‿◠ )☛#{msg.match[4]}\n" +
       "▂▅▇█▓▒░(’ω’)░▒▓█▇▅▂うわああああああ"
 
     msg.send str
