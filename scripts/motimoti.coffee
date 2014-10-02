@@ -32,3 +32,21 @@ module.exports = (robot) ->
     url = "http://www.google.co.jp/search?q=#{msg.match[1]}&" +
       "sitesearch=http%3A%2F%2Fdocs.oracle.com%2Fjavase%2Fjp%2F6%2Fapi%2F"
     msg.send url
+
+  robot.hear /columbia/, (msg) ->
+    str = ".　　　　　　　　　　　　　　　　　　　　　　　　　　　　　,.へ \n";
+          "　　___ 　　　　　　　 　 　 　 　 　　　　　　　　　　　　ﾑ　　i \n";
+          "　「 ﾋ_i〉　　　 　 　　　　　　 　 　　　　　　　　　　　　 ゝ　〈 \n";
+          "　ﾄ　ノ 　　　　　　　　　　　　　　　　　　　　　　　　　　iニ(() \n";
+          "　i 　{ 　 　　　　　　　 　　　＿＿＿_ 　 　　　　　　　　| 　ヽ \n";
+          "　i　　i　　　 　　　　　　　／__,　 , ‐-＼ 　 　 　 　 　　i 　　} \n";
+          "　|　　 i　　　　　　 　　／（●) 　 ( ● )＼　　　　　　 {､　 λ \n";
+          "　ト－┤.　　　　　　／ 　 　（__人__） 　　　＼　　　 ,ノ　￣ ,! \n";
+          "　i　　　ゝ､_ 　　　　|　　　　　´￣` 　 　　　　|　,. '´ﾊ　　　,! \n";
+          ".　ヽ、 　　　｀`　､,__＼ 　　 　 　　　　　 　 ／"　＼ 　ヽ／ \n";
+          "　　　＼ノ　ﾉ　　　ﾊ￣r/:::r―--―/::７　　 ﾉ　　　　／ \n";
+          "　 　　 　 ヽ.　　　　　　ヽ::〈； . '::. :' |::/　　 /　　　,. " \n";
+          "　　　　　　　 `ｰ ､　　　　＼ヽ::. ;::：|/　　　　　ｒ'" \n";
+          "　　　　　／￣二二二二二二二二二二二二二二二二ヽ \n";
+          "　　　　　| 答 |　　　　　コ　ロ　ン　ビ　ア　　　　　　　│| \n";
+          "　　　　　＼＿二二二二二二二二二二二二二二二二ノ";
