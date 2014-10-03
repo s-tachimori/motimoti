@@ -14,10 +14,12 @@ module.exports = (robot) ->
   robot.hear /デグ/, (msg) -> 
     msg.send "┗(^o^)┛ｗｗｗｗｗ┏(^o^)┓ﾃﾞｸﾞﾃﾞｸﾞﾃﾞｸﾞﾃﾞｸﾞｗｗｗｗｗ"
  
-#  robot.respond /sudden (.*)/i, (msg) ->
-#    str = msg.match[1]
-#    len = str.length
-#    msg.send "＿人人人人人人＿ ＞　" + m + "　＜ ￣Y^Y^Y^Y^Y￣"
+  robot.hear /sudden (.*)/i, (msg) ->
+    str = msg.match[1]
+    len = str.length
+    msg.send "＿#{new Array(len).join('人')}＿\n" +
+            " ＞　#{str}　＜\n" +
+             "￣#{new Array(len).join('Y^')}￣"
 
   robot.respond /liquidate ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/, (msg) ->
     str = "( ^o^)#{msg.match[1]}\n" +
@@ -34,7 +36,7 @@ module.exports = (robot) ->
     msg.send url
 
   robot.hear /columbia/, (msg) ->
-    str = ".　　　　　　　　　　　　　　　　　　　　　　　　　　　　　,.へ \n" +
+    msg.send ".　　　　　　　　　　　　　　　　　　　　　　　　　　　　　,.へ \n" +
           "　　___ 　　　　　　　 　 　 　 　 　　　　　　　　　　　　ﾑ　　i \n" +
           "　「 ﾋ_i〉　　　 　 　　　　　　 　 　　　　　　　　　　　　 ゝ　〈 \n" +
           "　ﾄ　ノ 　　　　　　　　　　　　　　　　　　　　　　　　　　iニ(() \n" +
@@ -50,4 +52,3 @@ module.exports = (robot) ->
           "　　　　　／￣二二二二二二二二二二二二二二二二ヽ \n" +
           "　　　　　| 答 |　　　　　コ　ロ　ン　ビ　ア　　　　　　　│| \n" +
           "　　　　　＼＿二二二二二二二二二二二二二二二二ノ"
-    msg.send str
