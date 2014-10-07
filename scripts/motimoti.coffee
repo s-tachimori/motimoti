@@ -17,7 +17,7 @@ module.exports = (robot) ->
   robot.hear /sudden (.*)/i, (msg) ->
     str = msg.match[1]
     len = str.length
-    msg.send "＿#{new Array(len).join('人')}＿\n" +
+    msg.send "＿#{new Array(len + 1).join('人')}＿\n" +
             " ＞　#{str}　＜\n" +
              "￣#{new Array(len).join('Y^')}￣"
 
