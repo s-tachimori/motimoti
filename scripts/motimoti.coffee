@@ -25,23 +25,25 @@ module.exports = (robot) ->
              "￣#{new Array(len).join('Y^')}￣"
 
   robot.hear /omikuji/, (msg) ->
+    name = msg.message.user.name
     n = Math.floor(Math.random() * 10)
 
-    msg.send msg
-
-    switch n
-      when 0
-        msg.send "大吉"
-      when 1
-        msg.send "中吉"
-      when 2, 3, 4
-        msg.send "小吉"
-      when 5, 6, 7
-        msg.send "末吉"
-      when 8
-        msg.send "凶"
-      when 9
-        msg.send "大凶"
+    if name == "ohnishi"
+      msg.send "大西は大凶"
+    else
+      switch n
+        when 0
+          msg.send "大吉"
+        when 1
+          msg.send "中吉"
+        when 2, 3, 4
+          msg.send "小吉"
+        when 5, 6, 7
+          msg.send "末吉"
+        when 8
+          msg.send "凶"
+        when 9
+          msg.send "大凶"
 
   robot.respond /liquidate ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/, (msg) ->
     str = "( ^o^)#{msg.match[1]}\n" +
