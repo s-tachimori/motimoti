@@ -13,6 +13,30 @@ module.exports = (robot) ->
 
   robot.hear /(?:かみ|カミ|髪)/, (msg) ->
     msg.send "(´･ω･`)また髪の話してる"
+    
+  robot.hear /(.*)/i, (msg) ->
+    str = msg.match[1]
+    switch str
+      when "大"
+        msg.send "空"
+      when "空"
+        msg.send "寺"
+      when "寺"
+        msg.send "あ"
+      when "あ"
+        msg.send "ゆ"
+      when "ゆ"
+        msg.send "（・▽・）"
+      when "（・▽・）"
+        msg.send "萌"
+      when "萌"
+        msg.send "え"
+      when "え"
+        msg.send "っ"
+      when "っ"
+        msg.send "！"
+      when "高"
+        msg.send "山　IS GOD"
 
   robot.hear /デグ/, (msg) -> 
     msg.send "┗(^o^)┛ｗｗｗｗｗ┏(^o^)┓ﾃﾞｸﾞﾃﾞｸﾞﾃﾞｸﾞﾃﾞｸﾞｗｗｗｗｗ"
