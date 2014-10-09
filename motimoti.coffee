@@ -24,7 +24,7 @@ module.exports = (robot) ->
             " ＞　#{str}　＜\n" +
              "￣#{new Array(len).join('Y^')}￣"
 
-  robot.respond /^omikuji$/, (msg) ->
+  robot.respond /omikuji/, (msg) ->
     n = Math.random() * 10
 
     msg.toString()
@@ -49,8 +49,7 @@ module.exports = (robot) ->
       "|#{msg.match[3]}|┗(☋｀ )┓三\n" +
       "( ◠‿◠ )☛#{msg.match[4]}\n" +
       "▂▅▇█▓▒░(’ω’)░▒▓█▇▅▂うわああああああ"
-
-
+    msg.send str
 
   robot.hear /javaapi\s+(.*)$/i, (msg) ->
     url = "http://www.google.co.jp/search?q=#{msg.match[1]}&" +
