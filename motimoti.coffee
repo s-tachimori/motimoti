@@ -8,8 +8,11 @@
 #   hubot die - End hubot process
 
 module.exports = (robot) ->
-  robot.hear /OHNISHI/i, (msg) ->
-    msg.send "IS GOD."
+  robot.hear /(?:OHNISHI|おおにし|オオニシ|大西)/i, (msg) ->
+    msg.send "大西は神。"
+
+  robot.hear /(?:かみ|カミ|髪)/, (msg) ->
+    msg.send "(´･ω･`)また髪の話してる"
 
   robot.hear /デグ/, (msg) -> 
     msg.send "┗(^o^)┛ｗｗｗｗｗ┏(^o^)┓ﾃﾞｸﾞﾃﾞｸﾞﾃﾞｸﾞﾃﾞｸﾞｗｗｗｗｗ"
@@ -20,6 +23,25 @@ module.exports = (robot) ->
     msg.send "＿#{new Array(len + 1).join('人')}＿\n" +
             " ＞　#{str}　＜\n" +
              "￣#{new Array(len).join('Y^')}￣"
+
+  robot.respond /^omikuji$/, (msg) ->
+    n = Math.random() * 10
+
+    msg.toString()
+
+    switch n
+      when 0
+        msg.send "大吉"
+      when 1
+        msg.send "中吉"
+      when 2, 3, 4
+        msg.send "小吉"
+      when 5, 6, 7
+        msg.send "末吉"
+      when 8
+        msg.send "凶"
+      when 9
+        msg.send "大凶"
 
   robot.respond /liquidate ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/, (msg) ->
     str = "( ^o^)#{msg.match[1]}\n" +
