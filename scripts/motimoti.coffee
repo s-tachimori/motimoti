@@ -24,7 +24,7 @@ module.exports = (robot) ->
             " ＞　#{str}　＜\n" +
              "￣#{new Array(len).join('Y^')}￣"
 
-  robot.respond /omikuji/, (msg) ->
+  robot.hear /omikuji/, (msg) ->
     n = Math.random() * 10
 
     msg.toString()
