@@ -25,10 +25,9 @@ module.exports = (robot) ->
              "￣#{new Array(len).join('Y^')}￣"
 
   robot.hear /omikuji/, (msg) ->
-    msg.send "omikuji"
-    n = Math.random() * 10
+    n = Math.floor(Math.random() * 10)
 
-    msg.toString()
+    msg.send msg
 
     switch n
       when 0
