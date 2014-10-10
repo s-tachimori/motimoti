@@ -20,7 +20,14 @@ module.exports = (robot) ->
       when "大"
         msg.send "空"
       when "空"
-        msg.send "寺"
+        m = Math.floor(Math.random() * 3)
+        switch m
+          when 0
+            msg.send "寺"
+          when 1
+            msg.send "魔"
+          when 3
+            msg.send "翼"
       when "寺"
         msg.send "あ"
       when "あ"
@@ -36,7 +43,20 @@ module.exports = (robot) ->
       when "っ"
         msg.send "！"
       when "高"
-        msg.send "山　IS GOD"
+        r = Math.floor(Math.random() * 10)
+        switch r
+          when 0
+            msg.send "尾山　IS GOD"
+          when 1
+            msg.send "山　IS AGGAI"
+          when 2, 3, 4
+            msg.send "山　SUN"
+          when 5, 6, 7
+            msg.send "山　IS GOD"
+          when 8
+            msg.send "倉健「マグロ！ご期待ください！」"
+          when 9
+            msg.send "山　IS GOOD"
 
   robot.hear /デグ/, (msg) -> 
     msg.send "┗(^o^)┛ｗｗｗｗｗ┏(^o^)┓ﾃﾞｸﾞﾃﾞｸﾞﾃﾞｸﾞﾃﾞｸﾞｗｗｗｗｗ"
