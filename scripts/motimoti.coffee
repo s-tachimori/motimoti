@@ -121,6 +121,8 @@ module.exports = (robot) ->
           "　　　　　| 答 |　　　　　コ　ロ　ン　ビ　ア　　　　　　　│| \n" +
           "　　　　　＼＿二二二二二二二二二二二二二二二二ノ"
 
+  robot.hear /ｽﾞｯ/, (msg) ->
+    msg.send "友"
 
   byteLength: (str) ->
     len = 0
