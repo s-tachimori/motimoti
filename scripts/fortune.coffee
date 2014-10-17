@@ -14,7 +14,6 @@ module.exports = (robot) ->
     i = Math.floor Math.random() * array.length
     msg.send array[i]
 
-module.exports = (robot) ->
   robot.hear /^buront$/, (msg) ->
     array = str(buront).split "%"
     i = Math.floor Math.random() * array.length
