@@ -6,6 +6,6 @@ deploy:
   api_key:
     secure: twfHs6AxchTzZTXGQTuyoznm0ylof5BViC1WURDAPz7XF+nINBDFUOdARmfJZSmb53+hAsc7Dz6iXx08Vla57MfWGmluAarmTUso2R/coi5OtNZ32DHMOmBVq4WkfS8znVx1HFctrT2UL6oSO8STfVTfDTSnjVjAlgBNR0b2MPo=
   strategy: git
-  app: motimoti
+  app: gentle-garden-3603
   on:
     repo: s-tachimori/motimoti
