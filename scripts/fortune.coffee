@@ -1,11 +1,6 @@
-# Description:
-#   Utility commands surrounding Hubot uptime.
-#
-# Commands:
-#   fortune - Reply with any message
 fs = require "fs"
-text = './fortune.txt'
-buront = './buront.txt'
+text = './resources/fortune.txt'
+buront = './resources/buront.txt'
 str = (filename) -> fs.readFileSync filename, 'utf8'
 
 module.exports = (robot) ->
