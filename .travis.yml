@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: heroku
+  api_key:
+    secure: twfHs6AxchTzZTXGQTuyoznm0ylof5BViC1WURDAPz7XF+nINBDFUOdARmfJZSmb53+hAsc7Dz6iXx08Vla57MfWGmluAarmTUso2R/coi5OtNZ32DHMOmBVq4WkfS8znVx1HFctrT2UL6oSO8STfVTfDTSnjVjAlgBNR0b2MPo=
+  app: motimoti
+  on:
+    repo: s-tachimori/motimoti
