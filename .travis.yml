@@ -9,3 +9,6 @@ deploy:
   app: gentle-garden-3603
   on:
     repo: s-tachimori/motimoti
+notifications:
+  slack:
+    secure: Hn+Ynwqm7kqC/Fmif2s18GyL3o0Z2DPkWbMY2Ec0nOrnE0lxqLCTkYt+BRuw9wiw3EvEre1AdKXdVpEdC3LrB3Zp5kjy6LMXKsG8G8BXBOtgVjqt+qUyZzwjUoq8GmB2NHHH80tlgUmoS/L6RbiomjtX++psZdnFnjXWniwRHrg=
