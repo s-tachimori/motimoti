@@ -11,11 +11,6 @@ cron = require "cron"
 job = cron.CronJob
 
 module.exports = (robot) ->
-  new job 
-    cronTime: "0 0 17 * * *"
-    start: true
-    onTick: ->
-      robot.send { room: "#general" }, "ん？もう5時か！小腹空いたな！"
 
   robot.hear /(?:OHNISHI|おおにし|オオニシ|大西)/i, (msg) ->
     msg.send "大西は神。"
